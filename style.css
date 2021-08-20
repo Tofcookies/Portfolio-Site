@@ -52,10 +52,6 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 64px 24px;
-  background-image: url(images/Header-illustration.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100% 100%;
 }
 
 .header-container {
@@ -108,3 +104,103 @@ li {
   flex-direction: column;
   margin-top: 64px;
 }
+
+.text {
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  vertical-align: center;
+}
+
+
+.an-image {
+  width: 48px;
+  height: 4px;
+  left: 139.5px;
+  top: 121px;
+  border-radius: 24px;
+}
+
+  .portfolio {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: auto
+}
+    .portfolio-item {
+  border: 1px solid #D0D9D4;
+  border-radius: 8px;
+  height: 600px;
+  margin-bottom: 24px;
+}
+
+      .portfolio-img {
+    width: 100%;
+    background-color: #EBF0EE;
+      }
+
+      .portfolio-ul {
+        padding: 0;
+        display: flex;
+        text-align: center;
+        list-style-type: none;
+        justify-content: space-between;
+        margin-top: 16px;
+        gap: 12px;
+      }
+
+      .portfolio-details {
+        display: flex;
+        flex-direction: column;
+        border-radius: inherit;
+        padding: 30px 12px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 16px;
+      }
+
+      .portfolio-li {
+        padding: 20px;
+        background-color: #EBF0EE;
+        border-radius: 5px;
+        align-content: end;
+      }
+      .portfolio-btn {
+        margin-top: 24px;
+        padding: 12px;
+        background-color: #36B37F;
+        color: white;
+        border-radius: 5px;
+        border: 1px solid #36B37F;
+      }
+
+      .about-me > h3 {
+        font-style: bold;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+        margin-bottom: 24px;
+        margin-top: 68px;
+      }
+      .about-me > p {
+        font-style: regular;
+        font-size: 20px;
+        font-weight: 400px;
+        line-height: 32px;
+        text-align: center;
+        margin-bottom: 36px;
+      }
+
+      .resume-btn {
+        margin-top: 24px;
+        padding: 12px;
+        background-color: #36B37F;
+        color: white;
+        border-radius: 5px;
+        border: 1px solid #36B37F;
+        text-align: center;
+      }

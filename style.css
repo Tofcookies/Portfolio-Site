@@ -47,6 +47,12 @@ header {
   display: inline-block;
 }
 
+.action {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
 .welcome-container {
   margin-left: 24px;
 }
@@ -180,6 +186,13 @@ li {
   line-height: 16px;
 }
 
+button {
+  font-family: 'Inter', sans-serif;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
+}
+
 .portfolio-btn {
   width: 122px;
   height: 48px;
@@ -188,9 +201,6 @@ li {
   background-color: #36b37f;
   color: #fff;
   border-radius: 4px;
-  border: 1px solid #36b37f;
-  font-weight: 500;
-  font-size: 17px;
   text-align: center;
 }
 
@@ -199,11 +209,12 @@ a:visited {
 }
 
 .portfolio-btn:hover {
-  color: #fff;
+  background-color: #36b37f;
+  box-shadow: 0 8px 16px rgb(54, 181, 128, 0.24);
 }
 
 .portfolio-btn:active {
-  color: #36b37f;
+  background-color: #008552;
 }
 
 .about-me {

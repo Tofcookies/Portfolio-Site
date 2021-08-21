@@ -181,14 +181,29 @@ li {
 }
 
 .portfolio-btn {
+  width: 122px;
+  height: 48px;
   margin-top: 24px;
   padding: 12px;
   background-color: #36b37f;
-  color: rgb(160, 140, 140);
-  border-radius: 5px;
+  color: #fff;
+  border-radius: 4px;
   border: 1px solid #36b37f;
   font-weight: 500;
   font-size: 17px;
+  text-align: center;
+}
+
+a:visited {
+  color: #fff;
+}
+
+.portfolio-btn:hover {
+  color: #fff;
+}
+
+.portfolio-btn:active {
+  color: #36b37f;
 }
 
 .about-me {
@@ -246,10 +261,10 @@ h3 {
 }
 
 .portfolio-lang {
+  width: 365px;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   background-color: #ebf0ee;
-  width: 365px;
   margin: 20px auto;
 }
 
@@ -312,6 +327,7 @@ h3 {
   display: block;
   color: #172b4d;
   position: relative;
+  margin: 12px;
 }
 
 .work .svg-image {

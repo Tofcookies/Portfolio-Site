@@ -3,11 +3,6 @@
   margin: 0;
 }
 
-html,
-body {
-  overflow-x: hidden;
-}
-
 body {
   position: relative;
   font-family: 'Inter', sans-serif;

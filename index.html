@@ -229,13 +229,12 @@
         touch.
       </p>
 
-      <form class="form-page">
-        <input class="fullname" type="text" id="name" name="name" placeholder="Full name">
+      <form class="form-page" action="formspree" method="POST">
+        <input class="fullname" type="text" id="name" name="name" placeholder="Full name" required maxlength="30">
+        <input class="email" type="email" id="email" name="email" placeholder="Email Address" required maxlength="30" />
 
-        <input class="email" type="email" id="email" name="email" placeholder="Email Address" />
-
-        <textarea name="text">Enter text here</textarea>
-        <button class="click" type="button">Get in touch</button>
+        <textarea name="text" maxlength="500">Enter text here</textarea>
+        <button class="click" type="submit">Get in touch</button>
       </form>
     </section>
     <div class="footer-icons">
@@ -272,6 +271,10 @@
     <svg width="100%" height="100%" viewBox="0 0 375 34" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect x="120" y="21" width="134" height="5" rx="2.5" fill="#0D151E" />
     </svg>
+    <footer>
+
+    </footer>
+
   </main>
 </body>
 

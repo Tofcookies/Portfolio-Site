@@ -16,11 +16,18 @@
   <header>
     <div class="welcome-container">
       <a href="/">
-        <img class="all-image" src="images/Welcome.svg" alt="Welcome">
+        <img class="all-image d-none" src="images/Welcome.svg" alt="Welcome">
       </a>
     </div>
+    <div class="desktop-nav">
+      <ul class="nav-link">
+        <li><a class="nav-links" href="">Portfolio</a></li>
+        <li><a class="nav-links" href="">About</a></li>
+        <li><a class="nav-links" href="">Contact</a></li>
+      </ul>
+    </div>
     <nav>
-      <div class="image-container">
+      <div class="image-container d-none">
         <img class="all-image" src="images/Menu.svg" alt="Menu icon">
       </div>
     </nav>
@@ -29,13 +36,13 @@
   <main>
     <section class="headline">
       <div class="header-container">
-        <h1>Hey there. I’m Tofunmi</h1>
-        <h2> I’m a software developer</h2>
+        <h1>Hey there. I'm Tofunmi</h1>
+        <h2> I'm a software developer</h2>
       </div>
       <p class="primary-content"> I can help you build a product , feature or website Look through some of my work
         and
         experience! If you like what you see and have a project you need coded,
-        don’t hestiate to contact me.</p>
+        don't hestiate to contact me.</p>
 
       <ul class="social-media-icons">
         <li class="social-media-icon">
@@ -79,7 +86,7 @@
       </div>
     </section>
 
-    <section class="Portfolio">
+    <section class="portfolio-sect">
       <div class="portfolio-item">
         <img class="portfolio-img" src="images/Laptop.jpg" alt />
         <div class="portfolio-details">
@@ -164,18 +171,23 @@
         </div>
       </div>
     </section>
-    <section>
+
+
+
+
+
+    <section class="about-sect">
       <div class="about-me">
         <img class="about-me-img" src="./images/illustration-2-about-me-mobile.svg" alt="" />
         <h3>About Me</h3>
         <p class="description">
           I can help you build a product , feature or website Look through some of
           my work and experience! If you like what you see and have a project you
-          need coded, don’t hestiate to contact me.
+          need coded, don't hestiate to contact me.
         </p>
-        <p class="resume-btn">Get my Resume</p>
+        <button class="resume-btn" type="button">Get my Resume</button>
       </div>
-      <div>
+      <div class="portfolio-lang-box">
         <div class="portfolio-lang">
           <div class="portfolio-globe">
             <div class="globe-img">
@@ -235,7 +247,7 @@
         <input class="email" type="email" id="email" name="email" placeholder="123@gmail.com" />
 
         <textarea name="text">Enter text here</textarea>
-        <button class="click" type="button">Get in touch</button>
+        <button class="click" type="submit">Get in touch</button>
       </form>
     </section>
     <div class="footer-icons">
@@ -269,7 +281,8 @@
       </ul>
       <p class="footer-email">tofunmialugbin@gmail.com</p>
     </div>
-    <svg width="100%" height="100%" viewBox="0 0 375 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <svg class="d-none" width="100%" height="100%" viewBox="0 0 375 34" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect x="120" y="21" width="134" height="5" rx="2.5" fill="#0D151E" />
     </svg>
   </main>

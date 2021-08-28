@@ -3,10 +3,10 @@
   margin: 0;
 }
 
-/* html,
+html,
 body {
   overflow-x: hidden;
-} */
+}
 
 body {
   position: relative;
@@ -31,7 +31,7 @@ header {
 }
 
 .headline {
-  background-image: url(images/Header-illustration.svg);
+  background-image: url(images/Header-llustration-desktop.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% 100%;
@@ -64,6 +64,10 @@ header {
 
 nav {
   margin-right: 35px;
+}
+
+.desktop-nav {
+  display: none;
 }
 
 main {

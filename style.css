@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+/* html,
+body {
+  overflow-x: hidden;
+} */
+
 body {
   position: relative;
   font-family: 'Inter', sans-serif;
@@ -132,16 +137,33 @@ li {
   border-radius: 24px;
 }
 
-.portfolio {
+.portfolio-sect {
   padding: 16px;
   display: grid;
-  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 992px) {
+  section.portfolio-sect {
+    grid-template-columns: repeat(3, auto);
+    margin: auto 0;
+    max-width: 100%;
+    gap: 24px;
+  }
+
+  section.portfolio-sect .portfolio-item {
+    margin: 20px 0;
+  }
+
+  /* watch here */
 }
 
 .portfolio-item {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
-  width: 365px;
+  width: 367px;
   margin: 20px auto;
 }
 
@@ -191,6 +213,7 @@ button {
   border: none;
   font-size: 17px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .portfolio-btn {
@@ -215,6 +238,27 @@ a:visited {
 
 .portfolio-btn:active {
   background-color: #008552;
+}
+
+@media screen and (min-width: 992px) {
+  section.about-sect {
+    padding-bottom: 12px;
+  }
+
+  section.about-sect p {
+    max-width: 773px;
+  }
+
+  section.about-sect .portfolio-lang-box {
+    display: flex;
+    gap: 24px;
+    margin: 52px 0;
+    justify-content: center;
+  }
+
+  section.about-sect .portfolio-lang {
+    margin: 0;
+  }
 }
 
 .about-me {
@@ -332,6 +376,81 @@ h3 {
   background-color: #fff;
   border-radius: 5px;
   align-content: end;
+}
+
+@media screen and (min-width: 992px) {
+  section.work {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 95px;
+    gap: 24px;
+    margin: 100px 12px;
+  }
+
+  section.work .duty {
+    width: 60%;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .form-page {
+    width: 50%;
+  }
+
+  .form-page input,
+  .form-page textarea {
+    width: 100%;
+  }
+
+  .form-page button {
+    align-self: flex-start;
+  }
+
+  .social-media-icons {
+    max-width: 12.5%;
+  }
+
+  .d-none {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 300px;
+    align-items: center;
+    margin-top: 12px;
+    justify-content: space-between;
+  }
+
+  .desktop-nav .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .desktop-nav .nav-link .nav-links {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #344563;
+    margin: 0 auto;
+  }
+
+  .desktop-nav ul li a {
+    text-decoration: none;
+  }
+  header {
+    position: relative;
+  }
 }
 
 .work {
